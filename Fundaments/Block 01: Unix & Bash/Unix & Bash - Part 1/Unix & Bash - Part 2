@@ -1,1 +1,244 @@
+➜  Unix & Bash - Part 1 git:(exercicios/1.3) ✗ cd unix_tests 
+➜  unix_tests git:(exercicios/1.3) ✗ 
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1842  100  1842    0     0   7675      0 --:--:-- --:--:-- --:--:--  7675
+➜  unix_tests git:(exercicios/1.3) ✗ cat countries.txt 
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+St Kitts & Nevis
+St Lucia
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe%                                                                                                                                                                                                          ➜  unix_tests git:(exercicios/1.3) ✗ less countries.txt 
+➜  unix_tests git:(exercicios/1.3) ✗ less countries.txt
+➜  unix_tests git:(exercicios/1.3) ✗ grep "Zambia" countries.txt 
+Zambia
+➜  unix_tests git:(exercicios/1.3) ✗ grep "Brazil" countries.txt 
+Brazil
+➜  unix_tests git:(exercicios/1.3) ✗ grep -i "brazil" countries.txt 
+Brazil
+➜  unix_tests git:(exercicios/1.3) ✗ grep -v "fox" phrases.txt 
+Live your life to the fullest while you can.
+I won’t stop travelling until i’ve seen the sunset from every corner of the world.
+A smile can change the world
+Life is better when we smile.
+Always do what is best for your soul.
+I woke up like this.
+Falcon Punch.
+Chasing the sun.
+Adventure, here we come!
+Memories made together, last forever.
+By getting lost in nature, you get closer to finding yourself.
+Why so serious?
+➜  unix_tests git:(exercicios/1.3) ✗ wc phrases.txt 
+ 12  77 423 phrases.txt
+➜  unix_tests git:(exercicios/1.3) ✗ wc -l phrases.txt 
+12 phrases.txt
+➜  unix_tests git:(exercicios/1.3) ✗ touch empty.tbt empty.pdf
+➜  unix_tests git:(exercicios/1.3) ✗ ls    
+countries.txt  empty.pdf  empty.tbt  phrases.txt  trybe_renamed.txt
+➜  unix_tests git:(exercicios/1.3) ✗ ls *.txt
+countries.txt  phrases.txt  trybe_renamed.txt
+➜  unix_tests git:(exercicios/1.3) ✗ ls *.tbt *.txt
+countries.txt  empty.tbt  phrases.txt  trybe_renamed.txt
+➜  unix_tests git:(exercicios/1.3) ✗ ls --help
+
+
+
+
+
+
+ 
+
 
