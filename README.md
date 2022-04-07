@@ -10,25 +10,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [X] 1-3: _Fundamentos do Desenvolvimento Web_
-- [X] 1-3: _Introdução - Unix & Shell_
-- [X] 1-3: _Unix & Shell- Part 1_
-- [X] 1-4: _Unix & Shell- Part 2_
+- [✔️] 1-3: _Fundamentos do Desenvolvimento Web_
+- [:heavy_check_mark:] 1-3: _Introdução - Unix & Shell_
+- [:heavy_check_mark:] 1-3: _Unix & Shell- Part 1_
+- [:heavy_check_mark:] 1-4: _Unix & Shell- Part 2_
 
 ##### Bloco 2: Git & GitHub e Internet
 
-- [X] 2-1: _Git & GitHub - O que é e para que serve_
-- [X] 2-2: _Git & GitHub - Entendendo os comandos_
-- [X] 2-3: _Internet - Entendendo como ela funciona_
+- [:heavy_check_mark:] 2-1: _Git & GitHub - O que é e para que serve_
+- [:heavy_check_mark:] 2-2: _Git & GitHub - Entendendo os comandos_
+- [:heavy_check_mark:] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [X] 3-1: _Introdução - HTML & CSS_
-- [X] 3-1: _HTML & CSS - Estruturas de página_
-- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [X]  3-3: _HTML & CSS - Seletores e posicionamento_
-- [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned]()_
+- [:heavy_check_mark:] 3-1: _Introdução - HTML & CSS_
+- [:heavy_check_mark:] 3-1: _HTML & CSS - Estruturas de página_
+- [:heavy_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [:heavy_check_mark:]  3-3: _HTML & CSS - Seletores e posicionamento_
+- [:heavy_check_mark:] 3-4: _HTML Semântico_
+- [:heavy_check_mark:] 3-5: _[Projeto - Lessons Learned]()_
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
