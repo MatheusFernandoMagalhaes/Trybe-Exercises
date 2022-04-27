@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/node_modules/bulma/css/bulma-rtl.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body class="message-body">
+  <h1 class="content message-header">Concurso TrybeTrip</h1>
+  <form action="">
+    <fieldset>
+      <div>
+        <label class="label" for="fullName">Nome Completo:
+          <input class="input" type="text" name="nome" id="fullName" placeholder="Digite seu nome completo"
+            maxlength="40" minlength="10" required>
+        </label>
+        <label class="label" for="email">E-mail:
+          <input class="input" type="email" name="email" id="email" placeholder="Digite seu e-mail" maxlength="40"
+            minlength="10" required>
+        </label>
+      </div>
+      <br>
+      <br>
+      <label class="tag is-large label" for="destinos">Escolha seu destino
+        <select name="destino" id="destinos" class="select">
+          <option value="sel">Selecione</option required>
+          <option value="cid">Cidade</option required>
+          <option value="cam">Campo</option required>
+          <option value="pra">Praia</option required>
+          <option value="mon">Montanhas</option required>
+        </select>
+      </label>
+      <br>
+      <br>
+      <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+        <br>
+        <br>
+        <textarea name="texto" id="texto" cols="30" rows="10" maxlength="500"
+          placeholder="Digite sua resposta vencedor aqui!" class="textarea" required></textarea>
+      </p>
+      <label class="label" for="date">Qual a melhor data para realizar sua viagem?
+        <input class="input" type="date" name="datas" id="date" required>
+      </label>
+      <br>
+      <br>
+      <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <br>
+        <div>
+          <label class="label" for="sim">Sim
+            <input class="checkbox" type="radio" name="answers" id="sim">
+          </label>
+        </div>
+        <div>
+          <label class="label" for="nao">Não
+            <input class="checkbox" type="radio" name="answers" id="nao">
+          </label>
+        </div>
+        <br>
+        <label class="label" for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de
+          concursos
+          futuros.</label>
+        <input class="checkbox" type="checkbox" name="agreement" id="agreement" required>
+      </p>
+      <br>
+      <button class="button is-success is-inverted[disabled] " type="submit" id="submit-button" disabled>Participar do
+        concurso TrybeTrip</button>
+      <button class="button is-warning" type="reset" id="clear-button">Apagar todas as
+        informações</button>
+    </fieldset>
+  </form>
+  <script src="/script.js"></script>
+</body>
+
+</html>
