@@ -1,3 +1,6 @@
+// 🚀 3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+// Dica: use a função filter;
+
 const books = [
   {
     id: 1,
@@ -61,13 +64,6 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-// 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
-const getNamedBook = () => {
-  books.find((book) => {
-    if (book.name.length === 26) {
-      return book.name;
-    }
-  });
-}
-console.log(getNamedBook());
+const filterGenre = books.filter((book) => (book.genre === 'Fantasia' || book.genre === 'Ficção Científica')
+);
+console.log(filterGenre);

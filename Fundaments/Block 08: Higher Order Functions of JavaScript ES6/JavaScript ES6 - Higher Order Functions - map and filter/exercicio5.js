@@ -61,13 +61,19 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-// 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
-const getNamedBook = () => {
-  books.find((book) => {
-    if (book.name.length === 26) {
-      return book.name;
-    }
-  });
-}
-console.log(getNamedBook());
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
+
+// }🚀 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+const filterGenre = () =>
+  books.filter((book) => (book.genre === 'Fantasia' || book.genre === 'Ficção Científica')
+  );
+
+const fantasyOrScienceFictionAuthors = ((callback) => callback().map((bookAuthor) => (bookAuthor.author.name))
+  .sort()
+);
+console.log(fantasyOrScienceFictionAuthors(filterGenre));
